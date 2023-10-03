@@ -1,0 +1,378 @@
+/* Font */
+@font-face {
+    font-family: sofiapro;
+    src: url(../fonts/SofiaProMedium.ttf);
+  }
+  
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  a {
+    transition: text-decoration-color 0.6s ease;
+  }
+  
+  a:hover {
+    text-decoration-color: transparent;
+  }
+
+  h1 {
+    font: 1.5rem sofiapro, sans-serif;
+  }
+
+  h2 {
+    font: 1.3rem sofiapro, sans-serif;
+  }
+
+  h3 {
+    font: 1rem sofiapro, sans-serif;
+  }
+
+  p {
+    font: 1rem sofiapro, sans-serif;
+    color:rgb(231, 212, 212);
+  }
+  
+  /* background image for homepage */
+  .background_image_wrapper {
+    background-image: url('../pictures/valilobackground1.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /*---------------------------------------------------------NAVIGATION BAR------------------------------------------*/
+  .logo {
+    height: 2rem;
+  }
+  
+  .navbar-brand {
+    padding: 0.6rem;
+  }
+  
+  .navbar {
+    background-color: rgb(32, 30, 30);
+    --bs-navbar-padding-y: 0;
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 0 1.45rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font: 1.2rem sofiapro, sans-serif;
+    color: rgb(231, 212, 212);
+    padding: 1.34rem;
+  }
+  
+  .navbar-nav .nav-item:hover .nav-link {
+    background-color: rgb(95, 55, 59);
+    color: rgb(152, 146, 146);
+  }
+  
+  #location_highlight {
+    background-color: rgb(95, 55, 59);
+    color: rgb(152, 146, 146);
+  }
+
+  /*-------------------------------------- DROPDOWN MENU ------------------------------*/
+.dropdown-menu {
+  background-color: rgb(32, 30, 30);
+}
+
+.dropdown-item {
+  font: 1.2rem sofiapro, sans-serif;
+  padding: 1rem 2rem;
+  color: rgb(231, 212, 212);
+}
+
+.dropdown-item:hover {
+  background-color: rgb(95, 55, 59);
+  color: rgb(152, 146, 146);
+}
+  
+  
+  /*-------------------------------------------HEADER------------------------------------------------------------ */
+  header {
+    height: 100vh;
+  }
+  
+  .welcome_homepage {
+    background-color: rgba(95, 55, 59, 0.501);
+    padding: 3rem;
+  }
+  
+  header h1 {
+    font: 2.5rem sofiapro, sans-serif;
+    color:rgb(243, 238, 233);
+  }
+  
+  header h1 .welcome {
+    font: 9rem sofiapro, sans-serif;
+  }
+  
+  header h2 {
+    font: 2.5rem sofiapro, sans-serif;
+    color: rgb(231, 222, 212);
+  }
+  
+  header h3 {
+    font: 1.5rem sofiapro, sans-serif;
+    color: rgb(231, 222, 212);
+  }
+
+  p {
+    font: sofiapro, sans-serif;
+  }
+
+  /*--------------------------------------------------------------FOOTER---------------------------------------------------------*/
+  footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    background-color: rgb(32, 30, 30);
+    margin-top: 5%;
+  }
+
+  #footer_contents {
+    margin-top: 1rem;
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 1rem;
+    color:rgb(32, 30, 30);
+    font: 0.9rem sans-serif;
+    background-color: rgb(32, 30, 30); 
+  }
+
+  /*------------------------------- CONTACT US ------------------------------------- */
+#contact a {
+  color:  rgb(231, 212, 212);
+  font: 1rem sofiapro, sans-serif;
+  padding: 0.5rem;
+}
+
+#contact a:hover {
+  color: rgb(152, 146, 146);
+}
+
+/* SOCIAL MEDIA ICONS */
+#media_icons li {
+  margin-left: 0.5rem;
+}
+
+#media_icons a {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color:  rgb(231, 212, 212);
+}
+
+#media_icons a:hover {
+  color:rgb(152, 146, 146);
+}
+
+
+/* ---------------------------------------------- COPYRIGHT. ALL RIGHTS RESERVED --------------------------------------- */
+.copyright {
+  text-align: center;
+  padding: 1rem;
+  color:  rgb(231, 212, 212);
+  font: 0.9rem sofiapro, sans-serif;
+  background-color: rgb(32, 30, 30);
+}
+
+/*------------------------------------------------ HOMEPAGE ----------------------------------------------------------*/
+
+.custom-column {
+  margin-left: -40rem;
+  padding-left: 0;
+}
+
+/*------------------------------------------------ABOUT ME PAGE-------------------------------------------------------*/
+
+.sideaccount {
+  margin-top: 15%;
+  border-radius: 2px;
+  box-shadow: 12px 12px 22px rgba(39, 39, 39, 0.801);
+  background-image: linear-gradient(rgb(84, 72, 73), rgb(95, 55, 59));
+  padding: 2rem;
+  height: 97%;
+  width: 100%;
+}
+
+.mainaccount {
+  margin-top: 5%;
+  border-radius: 2px;
+  box-shadow: 12px 12px 22px rgba(39, 39, 39, 0.801);
+  background-image: linear-gradient(rgb(84, 72, 73), rgb(97, 70, 73));
+  padding: 2rem;
+  height: 97%;
+  width: 100%
+}
+
+.nav .nav-item {
+  margin-top: 10%;
+  padding: 5%;
+  text-align: center;
+  background-color: rgb(32, 30, 30);
+  border-color: rgb(32, 30, 30);
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+}
+
+.nav .nav-link1 {
+  color: rgb(231, 212, 212) !important;
+}
+
+.nav .nav-item a {
+  font: 1.5em sofiapro, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav .nav-item a:hover {
+  color: rgb(152, 146, 146);
+}
+
+.sideaccount a {
+  font: 1.5em sofiapro, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sideaccount label {
+  font: 1em sofiapro, sans-serif;
+  color: rgb(231, 212, 212);
+  text-align: left;
+}
+
+
+.mainaccount h1 {
+  color: rgb(231, 212, 212);
+  font: 2.5rem sofiapro, sans-serif;
+}
+
+.mainaccount h2 {
+  color: rgb(231, 212, 212);
+  font: 1.7em sofiapro, sans-serif;
+}
+
+.mainaccount p {
+  color: rgb(231, 212, 212);
+  font: 1em sofiapro, sans-serif;
+}
+
+.mainaccount a {
+  color: rgb(231, 212, 212);
+  font: 1em sofiapro, sans-serif;
+}
+
+.mainaccount a:hover {
+  color: rgb(152, 146, 146);
+  
+}
+
+.mainaccount ul li {
+  font: 1em sofiapro, sans-serif;
+  color: rgb(231, 212, 212);;
+}
+
+.mainaccount label {
+  font: 1em sofiapro, sans-serif;
+  color: rgb(231, 212, 212);
+  text-align: left;
+}
+
+/*table style*/
+table{
+  border-collapse: collapse; /*collapse the borders to a single line*/
+  background-color:rgba(32, 30, 30, 0.716);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(231, 212, 212);
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-bottom: 2em;
+}
+
+
+th, td{
+  height: 50px;
+  border-style:solid;
+}
+
+/*--------------------------------------------------GRAPHIC DESIGN------------------------------------------------------------*/
+.column1{
+  flex: 50%;
+  max-width: 50%;
+  
+}
+
+.column1 img{
+  margin-top: 5%;
+
+  vertical-align: middle;
+  width: 100%;
+}
+/*-------------------------------------------------PAINTINGS - PHOTOGRAPHY -----------------------------------------------------*/
+/*create columns and rows for the painting-photo gallery*/
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.container h2 {
+  margin: 2%;
+  color: rgb(231, 212, 212);
+  font: 1.7em sofiapro, sans-serif;
+}
+
+
+  /*----------------------------------MEDIA QUERIES FOR MORE RESPONSIVENESS WITH REDUCING SCREEN SIZE----------------------------------*/
+@media screen and (max-width: 1220px) {
+
+    /* NAVIGATION BAR */
+    .navbar-nav .nav-item {
+      margin: 0 0.8rem;
+    }
+
+    .navbar-toggler {
+      color: rgb(231, 212, 212);
+    }
+  
+    .dropdown-item {
+      padding: 0.2rem 2rem;
+      color: rgb(231, 212, 212);
+    }
+  
+    #language_dropdown {
+      margin-left: -4rem;
+    }
+  
+    .dropdown-item {
+      padding: 0.9rem 2rem;
+    }
+
+    .custom-column {
+      margin-left: 0;
+      padding-left: 0;
+    }
+}
