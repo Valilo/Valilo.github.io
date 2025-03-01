@@ -194,21 +194,21 @@
 
 .sideaccount {
   margin-top: 15%;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 12px 12px 22px rgba(39, 39, 39, 0.801);
   background-image: linear-gradient(rgb(84, 72, 73), rgb(95, 55, 59));
   padding: 2rem;
-  height: 97%;
+  height: 98%;
   width: 100%;
 }
 
 .mainaccount {
   margin-top: 5%;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 12px 12px 22px rgba(39, 39, 39, 0.801);
   background-image: linear-gradient(rgb(84, 72, 73), rgb(97, 70, 73));
   padding: 2rem;
-  height: 97%;
+  height: 98%;
   width: 100%
 }
 
@@ -218,7 +218,7 @@
   text-align: center;
   background-color: rgb(32, 30, 30);
   border-color: rgb(32, 30, 30);
-  border-radius: 2px;
+  border-radius: 5px;
   width: 100%;
   height: 100%;
 }
@@ -290,7 +290,7 @@
 table{
   border-collapse: collapse; /*collapse the borders to a single line*/
   background-color:rgba(32, 30, 30, 0.716);
-  border-radius: 5px;
+  border-radius: 10px;
   border-style: solid;
   border-width: 5px;
   border-color: rgb(231, 212, 212);
